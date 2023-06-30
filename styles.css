@@ -112,7 +112,6 @@ h5 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: x-large;
   font-weight: bold;
-
 }
 
 /*********************************************
@@ -177,66 +176,66 @@ section .right {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-#one, #two, #three {
- 
- margin: 20px;
+#one,
+#two,
+#three {
+  margin: 20px;
 }
 
 #one {
- width: 190%;
- text-align: center;
- background-color: gold;
- font-family: arial,sans serif;
- font-size: 30px;
- font-weight: bolder;
+  width: 190%;
+  text-align: center;
+  background-color: gold;
+  font-family: arial, sans serif;
+  font-size: 30px;
+  font-weight: bolder;
 }
 
 #two {
- grid-row: 2;
- grid-column: 1;
- height: auto;
- width: 45vw;
+  grid-row: 2;
+  grid-column: 1;
+  height: auto;
+  width: 45vw;
 }
 
 #three {
- grid-row: 2;
- grid-column: 2;
- height: auto;
- width: 45vw;
+  grid-row: 2;
+  grid-column: 2;
+  height: auto;
+  width: 45vw;
 }
 
 .flex-container {
- display: flex;
- flex-direction: row;
- align-items: center;
- justify-content: center;
- flex-wrap: wrap;
- padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
 }
 
 .item {
- margin: 10px;
- width: 200px;
- height: 300px;
- background-color: blanchedalmond;
+  margin: 10px;
+  width: 200px;
+  height: 300px;
+  background-color: blanchedalmond;
 }
 
 .description {
- height:200px;
- width: 300px;
- margin: 10px;
- }
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
 h3 {
- text-align: center;
- font-size: 20px;
- font-family: arial, sans-serif;
- font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  font-family: arial, sans-serif;
+  font-weight: bold;
 }
 
 body {
- background-color: lightblue;
+  background-color: lightblue;
 }
-
 
 /*********************************************
            CONTACT
@@ -283,4 +282,3 @@ body {
   box-shadow: none;
   border: 1px solid #256ac4;
 }
-
