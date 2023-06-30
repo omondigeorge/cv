@@ -2,6 +2,16 @@
            SITE-WIDE
 *********************************************/
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header,
+main {
+  margin: 20px;
+}
+
 /* FONTS */
 body {
   font-family: Verdana, Times, serif;
@@ -61,6 +71,50 @@ h5 {
   margin: 0px;
 }
 
+/* NAV BAR */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.navbar {
+  background-color: #3474e6;
+  color: white;
+  height: 60px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav li {
+  margin-left: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.logo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+
+}
+
 /*********************************************
            CV
 *********************************************/
@@ -112,8 +166,86 @@ section .right {
 }
 
 /*********************************************
+           PROJECTS
+*********************************************/
+
+.projects-wrapper {
+  margin: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#one, #two, #three {
+ 
+ margin: 20px;
+}
+
+#one {
+ width: 190%;
+ text-align: center;
+ background-color: gold;
+ font-family: arial,sans serif;
+ font-size: 30px;
+ font-weight: bolder;
+}
+
+#two {
+ grid-row: 2;
+ grid-column: 1;
+ height: auto;
+ width: 45vw;
+}
+
+#three {
+ grid-row: 2;
+ grid-column: 2;
+ height: auto;
+ width: 45vw;
+}
+
+.flex-container {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+ flex-wrap: wrap;
+ padding: 0;
+}
+
+.item {
+ margin: 10px;
+ width: 200px;
+ height: 300px;
+ background-color: blanchedalmond;
+}
+
+.description {
+ height:200px;
+ width: 300px;
+ margin: 10px;
+ }
+h3 {
+ text-align: center;
+ font-size: 20px;
+ font-family: arial, sans-serif;
+ font-weight: bold;
+}
+
+body {
+ background-color: lightblue;
+}
+
+
+/*********************************************
            CONTACT
 *********************************************/
+
+.contact-wrapper {
+  margin: 20px;
+}
+
 .form-question {
   margin: 20px 0;
 }
@@ -151,3 +283,4 @@ section .right {
   box-shadow: none;
   border: 1px solid #256ac4;
 }
+
