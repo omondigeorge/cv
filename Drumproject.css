@@ -1,6 +1,7 @@
-drum-wrapper {
+#drum-wrapper {
   font-size: 10px;
-  background: url("./Drumproject-background img.jpg") bottom center;
+  background: url("https://media.istockphoto.com/id/1338833461/photo/part-of-a-drum-kit-drums-on-a-dark-background-copy-space.jpg?s=612x612&w=0&k=20&c=X8PZHOVITdOnjDDt8X9qJCksLpyREtf1IwGqZg33H8Q=")
+    bottom center;
   background-size: cover;
 }
 
